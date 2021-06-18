@@ -4,10 +4,14 @@
 /* componets */
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
+@import "components/screen-header.css";
 
 /* scrrens */
 @import "screens/login.css";
+@import "screens/friends.css";
 
 body {
+  color: #2e363e;
   font-family: font-family: 'Open Sans', sans-serif;
+  height: 1000vh;
 }
