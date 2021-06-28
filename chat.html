@@ -5,9 +5,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chats - Kokoa Clone</title>
+    <title>Chat - Kokoa Clone</title>
   </head>
-  <body>
+  <body id="chat-screen">
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
@@ -22,38 +22,23 @@
         <i class="fas fa-bolt"></i>
       </div>
     </div>
-    <header class="screen-header">
-      <h1 class="screen-header__title">Chats</h1>
-      <div class="screen-header__icons">
-        <span><i class="fas fa-search fa-lg"></i></span>
-        <span><i class="far fa-comment-dots fa-lg"></i></span>
-        <span><i class="fas fa-music fa-lg"></i></span>
-        <span><i class="fas fa-cog fa-lg"></i></span>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="more.html"><i class="fas fa-angle-left fa-3x"></i></a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">수누</h1>
+      </div>
+      <div class="alt-header__column">
+        <span
+          ><a href="#"><i class="fas fa-search fa-lg"></i></a
+        ></span>
+        <span
+          ><a href="#"><i class="fas fa-bars fa-lg"></i></a
+        ></span>
       </div>
     </header>
-
-    <main class="main-screen">
-      <a href="chat.html">
-        <div class="user-component">
-          <div class="user-component__column">
-            <img
-              src="KakaoTalk_20210308_190452406.jpg"
-              class="user-component__avatar user-component__avatar--sm"
-            />
-            <div class="user-component__text">
-              <h4 class="user-component__title--not-bold">Sunu</h4>
-              <h6 class="user-component__subtitle">
-                Please Check your Kokoa Account Info
-              </h6>
-            </div>
-          </div>
-          <div class="user-component__column">
-            <span class="user-component__time">18:43</span>
-            <div class="badge">1</div>
-          </div>
-        </div>
-      </a>
-    </main>
 
     <nav class="nav">
       <ul class="nav__list">
