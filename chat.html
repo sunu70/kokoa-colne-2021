@@ -40,31 +40,37 @@
       </div>
     </header>
 
-    <nav class="nav">
-      <ul class="nav__list">
-        <li class="nav__btn">
-          <a class="nav__link" href="friends.html"
-            ><i class="far fa-user fa-2x"></i
-          ></a>
-        </li>
-        <li class="nav__btn">
-          <a class="nav__link" href="chats.html"
-            ><span class="nav__notification badge">1</span
-            ><i class="fas fa-comment fa-2x"></i>
-          </a>
-        </li>
-        <li class="nav__btn">
-          <a class="nav__link" href="find.html"
-            ><i class="fas fa-search fa-2x"></i
-          ></a>
-        </li>
-        <li class="nav__btn">
-          <a class="nav__link" href="more.html"
-            ><i class="fas fa-ellipsis-h fa-2x"></i
-          ></a>
-        </li>
-      </ul>
-    </nav>
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Tuesday, June 30, 2020</div>
+
+      <div class="message-row">
+        <img src="https://avatars3.githubusercontent.com/u/3612017" />
+        <div class="message-row__content">
+          <span class="message__author">Nicolas</span>
+          <div class="message__info">
+            <span class="message__bubble">Hi!</span>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-answer">
+        <span class="message-answer__time">21:27</span>
+        <span class="message__bubble-yellow">Nice meet u!</span>
+      </div>
+    </main>
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="far fa-smile-wink fa-lg"></i>
+        <button>
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
       crossorigin="anonymous"
